@@ -6,10 +6,12 @@ admin:
 apiEndpoints:
   api:
     host: localhost
-    paths: '/ip'
+    paths: '/api'
 serviceEndpoints:
   httpbin:
     url: 'https://httpbin.org'
+  hello:
+    url: 'http://localhost:9000'
 policies:
   - basic-auth
   - cors

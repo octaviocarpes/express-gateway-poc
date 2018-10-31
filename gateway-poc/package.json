@@ -5,6 +5,9 @@
   "license": "UNLICENSED",
   "version": "1.0.0",
   "main": "server.js",
+  "scripts": {
+    "start": "cd ms && node hello-world.js"
+  },
   "dependencies": {
     "express-gateway": "^1.13.0"
   }
